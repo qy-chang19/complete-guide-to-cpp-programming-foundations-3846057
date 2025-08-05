@@ -13,7 +13,9 @@ int main(){
     std::cout << "a = " << a << std::endl;
     std::cout << "b = " << b << std::endl;
     std::cout << "flag = " << my_flag << std::endl;
-
+    my_flag = true;
+    std::cout << "a + b = " << a + b << std::endl;
+    std::cout << "b - a = " << b - a << std::endl;
     std::cout << std::endl << std::endl;
     return 0;
 }
